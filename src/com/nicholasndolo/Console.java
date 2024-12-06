@@ -1,4 +1,4 @@
-package com.morgageCalculator;
+package com.nicholasndolo;
 
 import java.util.Scanner;
 
