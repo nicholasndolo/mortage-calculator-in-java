@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51212cd8-d1cf-4a03-b429-61c715d9ed1c" name="Changes" comment="implement mortgage calculator">
+    <list default="true" id="51212cd8-d1cf-4a03-b429-61c715d9ed1c" name="Changes" comment="extract printMortgage and printPaymentSchedule methods into MortgageReport class">
+      <change afterPath="$PROJECT_DIR$/src/com/nicholasndolo/MortgageCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/morgageCalculator/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/morgageCalculator/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/nicholasndolo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nicholasndolo/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/nicholasndolo/MortgageReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nicholasndolo/MortgageReport.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +43,13 @@
     &quot;onboarding.tips.debug.path&quot;: &quot;/home/nicholas/Java/MorgageCalculator/src/com/morgageCalculator/Main.java&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveMembersDialog.RECENTS_KEY">
+      <recent name="com.nicholasndolo.MortgageCalculator" />
+      <recent name="com.morgageCalculator.MortgageReport" />
+      <recent name="com.morgageCalculator.Console" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -58,11 +67,91 @@
       <option name="project" value="LOCAL" />
       <updated>1726942768140</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add validation">
+      <option name="closed" value="true" />
+      <created>1731242167810</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1731242167810</updated>
+    </task>
+    <task id="LOCAL-00003" summary="refactor mortgage calculation in calculateMortgage method">
+      <option name="closed" value="true" />
+      <created>1732003614875</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1732003614875</updated>
+    </task>
+    <task id="LOCAL-00004" summary="refactor repetitive patterns">
+      <option name="closed" value="true" />
+      <created>1732006864203</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1732006864203</updated>
+    </task>
+    <task id="LOCAL-00005" summary="implement payment schedule">
+      <option name="closed" value="true" />
+      <created>1732103112134</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1732103112134</updated>
+    </task>
+    <task id="LOCAL-00006" summary="refactor code">
+      <option name="closed" value="true" />
+      <created>1732103907174</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1732103907174</updated>
+    </task>
+    <task id="LOCAL-00007" summary="refactor readNumber method to a console class">
+      <option name="closed" value="true" />
+      <created>1733508737410</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1733508737410</updated>
+    </task>
+    <task id="LOCAL-00008" summary="refactor readNumber method to a console class">
+      <option name="closed" value="true" />
+      <created>1733509304800</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1733509304800</updated>
+    </task>
+    <task id="LOCAL-00009" summary="overload readNumber method of the console class">
+      <option name="closed" value="true" />
+      <created>1733509704459</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1733509704460</updated>
+    </task>
+    <task id="LOCAL-00010" summary="extract printMortgage and printPaymentSchedule methods into MortgageReport class">
+      <option name="closed" value="true" />
+      <created>1733510331617</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1733510331617</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="implement mortgage calculator" />
-    <option name="LAST_COMMIT_MESSAGE" value="implement mortgage calculator" />
+    <MESSAGE value="add validation" />
+    <MESSAGE value="refactor mortgage calculation in calculateMortgage method" />
+    <MESSAGE value="refactor repetitive patterns" />
+    <MESSAGE value="implement payment schedule" />
+    <MESSAGE value="refactor code" />
+    <MESSAGE value="refactor readNumber method to a console class" />
+    <MESSAGE value="overload readNumber method of the console class" />
+    <MESSAGE value="extract printMortgage and printPaymentSchedule methods into MortgageReport class" />
+    <option name="LAST_COMMIT_MESSAGE" value="extract printMortgage and printPaymentSchedule methods into MortgageReport class" />
   </component>
 </project>
