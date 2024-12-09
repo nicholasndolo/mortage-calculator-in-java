@@ -5,9 +5,9 @@ public class MortgageCalculator {
     private float annualInterest;
     private byte years;
 
-    public MortgageCalculator(float annualInterest, int principal, byte years) {
-        this.annualInterest = annualInterest;
+    public MortgageCalculator(int principal, float annualInterest, byte years) {
         this.principal = principal;
+        this.annualInterest = annualInterest;
         this.years = years;
     }
 
@@ -30,5 +30,9 @@ public class MortgageCalculator {
                 / (Math.pow(1 + monthlyInterest, numberOfPayments) - 1);
 
         return mortgage;
+    }
+
+    public byte getYears() {
+        return years;
     }
 }

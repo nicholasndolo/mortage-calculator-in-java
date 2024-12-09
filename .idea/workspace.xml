@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51212cd8-d1cf-4a03-b429-61c715d9ed1c" name="Changes" comment="extract printMortgage and printPaymentSchedule methods into MortgageReport class">
-      <change afterPath="$PROJECT_DIR$/src/com/nicholasndolo/MortgageCalculator.java" afterDir="false" />
+    <list default="true" id="51212cd8-d1cf-4a03-b429-61c715d9ed1c" name="Changes" comment="overload readNumber method of the Console class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/nicholasndolo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nicholasndolo/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/nicholasndolo/MortgageCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nicholasndolo/MortgageCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/nicholasndolo/MortgageReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nicholasndolo/MortgageReport.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +40,8 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/home/nicholas/Java/MorgageCalculator/src/com/morgageCalculator/Main.java&quot;
+    &quot;onboarding.tips.debug.path&quot;: &quot;/home/nicholas/Java/MorgageCalculator/src/com/morgageCalculator/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -139,8 +140,27 @@
       <option name="project" value="LOCAL" />
       <updated>1733510331617</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="overload readNumber method of the Console class">
+      <option name="closed" value="true" />
+      <created>1733641798892</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1733641798892</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="implement mortgage calculator" />
@@ -152,6 +172,7 @@
     <MESSAGE value="refactor readNumber method to a console class" />
     <MESSAGE value="overload readNumber method of the console class" />
     <MESSAGE value="extract printMortgage and printPaymentSchedule methods into MortgageReport class" />
-    <option name="LAST_COMMIT_MESSAGE" value="extract printMortgage and printPaymentSchedule methods into MortgageReport class" />
+    <MESSAGE value="overload readNumber method of the Console class" />
+    <option name="LAST_COMMIT_MESSAGE" value="overload readNumber method of the Console class" />
   </component>
 </project>
