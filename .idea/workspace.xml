@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51212cd8-d1cf-4a03-b429-61c715d9ed1c" name="Changes" comment="extract duplicate code">
+    <list default="true" id="51212cd8-d1cf-4a03-b429-61c715d9ed1c" name="Changes" comment="refactor code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/nicholasndolo/MortgageCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nicholasndolo/MortgageCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/nicholasndolo/MortgageReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nicholasndolo/MortgageReport.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -171,7 +170,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733834330910</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="refactor code">
+      <option name="closed" value="true" />
+      <created>1733841753933</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1733841753933</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -195,8 +202,8 @@
     <MESSAGE value="overload readNumber method of the console class" />
     <MESSAGE value="extract printMortgage and printPaymentSchedule methods into MortgageReport class" />
     <MESSAGE value="overload readNumber method of the Console class" />
-    <MESSAGE value="refactor code" />
     <MESSAGE value="extract duplicate code" />
-    <option name="LAST_COMMIT_MESSAGE" value="extract duplicate code" />
+    <MESSAGE value="refactor code" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor code" />
   </component>
 </project>
