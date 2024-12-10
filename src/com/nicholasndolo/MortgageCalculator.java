@@ -1,8 +1,8 @@
 package com.nicholasndolo;
 
 public class MortgageCalculator {
-    public final static byte MONTHS_IN_YEAR = 12;
-    public final static byte PERCENT = 100;
+    private final static byte MONTHS_IN_YEAR = 12;
+    private final static byte PERCENT = 100;
 
     private int principal;
     private float annualInterest;
@@ -36,6 +36,14 @@ public class MortgageCalculator {
         return mortgage;
     }
 
+    public double[] getRemainingBalances(){
+        var balances = new double[getNumberOfPayments()];
+        for (short month = 1; month <= balances.length; month++)
+            balances[month - 1] = calculateBalance(month);
+
+        return balances;
+    }
+
     private float getMonthlyInterest() {
         return annualInterest / PERCENT / MONTHS_IN_YEAR;
     }
@@ -44,7 +52,4 @@ public class MortgageCalculator {
         return (short) (years * MONTHS_IN_YEAR);
     }
 
-    public byte getYears() {
-        return years;
-    }
 }
